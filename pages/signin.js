@@ -20,8 +20,8 @@ import axios from "axios";
 import DotLoaderSpinner from "../components/loaders/dotLoader";
 import Router from "next/router";
 const initialvalues = {
-  login_email: "",
-  login_password: "",
+  login_email: "admin@gmail.com",
+  login_password: "12341234",
   name: "",
   email: "",
   password: "",
