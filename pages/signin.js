@@ -21,7 +21,7 @@ import DotLoaderSpinner from "../components/loaders/dotLoader";
 import Router from "next/router";
 const initialvalues = {
   login_email: "admin@gmail.com",
-  login_password: "12341234",
+  login_password: "12345678",
   name: "",
   email: "",
   password: "",
