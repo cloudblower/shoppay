@@ -165,7 +165,7 @@ export default function signin({ providers, callbackUrl, csrfToken }) {
                     name="login_email"
                     icon="email"
                     placeholder="Email Address"
-                    value="admin@gmail.com"
+                    defaultValue="admin@gmail.com"
                     onChange={handleChange}
                   />
                   <LoginInput
@@ -173,7 +173,7 @@ export default function signin({ providers, callbackUrl, csrfToken }) {
                     name="login_password"
                     icon="password"
                     placeholder="Password"
-                    value="12341234"
+                    defaultValue="12341234"
                     onChange={handleChange}
                   />
                   <CircledIconBtn type="submit" text="Sign in" />
